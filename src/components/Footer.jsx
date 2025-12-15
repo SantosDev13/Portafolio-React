@@ -8,8 +8,8 @@ const Footer = () => {
         </p>
 
         <div className="flex gap-6">
-          <a href="https://github.com/tu-usuario" className="hover:text-accent transition-colors">GitHub</a>
-          <a href="https://linkedin.com/in/tu-usuario" className="hover:text-accent transition-colors">LinkedIn</a>
+          <a href="https://github.com/SantosDev13" className="hover:text-accent transition-colors">GitHub</a>
+          <a href="https://www.linkedin.com/in/luiscarhuachin/" className="hover:text-accent transition-colors">LinkedIn</a>
           {/* Si tuvieras un blog técnico, iría aquí */}
         </div>
       </div>

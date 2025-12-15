@@ -8,8 +8,8 @@ const Hero = () => {
         {/* Lado Izquierdo: Texto Introductorio */}
         <div className="space-y-6">
           <div className="flex items-center gap-2 text-accent font-mono text-sm tracking-wide">
-            <span className="text-xl">👋</span> 
-            <span>HELLO WORLD</span>
+            <span className="text-xl"></span> 
+            <span>HELLO WORLD!</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
@@ -34,10 +34,10 @@ const Hero = () => {
             </a>
             
             <div className="flex gap-4 items-center px-4">
-              <a href="#" className="text-text-muted hover:text-white transition-colors">
+              <a href="https://github.com/SantosDev13" className="text-text-muted hover:text-white transition-colors">
                 <Github size={24} />
               </a>
-              <a href="#" className="text-text-muted hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/luiscarhuachin/" className="text-text-muted hover:text-white transition-colors">
                 <Linkedin size={24} />
               </a>
             </div>

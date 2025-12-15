@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const Contact = () => {
   const [copied, setCopied] = useState(false);
-  const email = "luis.santos@example.com"; // ¡Pon tu correo real aquí!
+  const email = "santoscarhuachin13@gmail.com"; 
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
@@ -49,7 +49,7 @@ const Contact = () => {
 
           {/* Botón LinkedIn */}
           <a 
-            href="https://linkedin.com/in/tu-usuario" 
+            href="https://www.linkedin.com/in/luiscarhuachin/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group bg-[#0077b5] hover:bg-[#006396] text-white px-8 py-5 rounded-xl font-medium transition-all flex items-center gap-3 shadow-lg hover:shadow-[#0077b5]/30"

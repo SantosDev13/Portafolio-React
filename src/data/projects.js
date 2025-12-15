@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Sistema de Gestión de Catering",
     description: "API RESTful completa para gestionar reservas, inventario de insumos y asignación de personal para eventos. Incluye autenticación JWT y reportes.",
-    tags: ["Java", "Spring Boot", "PostgreSQL", "React"],
+    tags: ["Java", "Spring Boot", "MySQL", "React"],
     links: {
       github: "https://github.com/tu-usuario/proyecto-catering",
       demo: "#" // Si no tienes demo, puedes poner null
@@ -16,6 +16,7 @@ export const projects = [
       "Patrón DTO y Mapper para transferencia de datos"
     ]
   },
+
   {
     id: 2,
     title: "Microservicio de Notificaciones",
